@@ -1,0 +1,13 @@
+.app {
+    /* height: 100vh; */
+    background: linear-gradient(110deg, #000a24, #16002b);
+    overflow: hidden;
+}
+
+.icons {
+    color: whitesmoke;
+}
+
+.active {
+    transform: translateX(0) !important;
+}
