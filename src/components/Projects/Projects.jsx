@@ -1,5 +1,5 @@
 import { myProjects as MyProductsData } from "../../Data/Data"
-import { Link, MyProjects, ProjectBox, ProjectContainer, ProjectDetails, ProjectImage, ProjectLinks, ProjectWrapper, Title } from "./Projects.styled"
+import { MyProjects, ProjectBox, ProjectContainer, ProjectDetails, ProjectImage, ProjectLinks, ProjectWrapper, Title } from "./Projects.styled"
 
 
 const Projects = () => {

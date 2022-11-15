@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { animateRightToLeft } from "../../App.styled";
 
 // export const CardContainer = styled.div`
 //     width: 24em;
@@ -87,6 +88,7 @@ export const CardContainer = styled.div`
     justify-content: space-between;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    animation: ${animateRightToLeft} 500ms;
 
     @media screen and (max-width: 768px) {
         width: 165px;

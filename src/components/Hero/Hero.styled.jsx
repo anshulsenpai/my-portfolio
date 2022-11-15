@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { animateDownToUp, animateLeftToRight } from "../../App.styled"
 
 export const HeroContainer = styled.div`
     width: 100%;
@@ -36,6 +37,8 @@ export const HeroImage = styled.div`
     justify-content: center;
     align-items: center;
     position: relative;
+    transition: all 0.3s ease-in-out;
+    animation: ${animateLeftToRight} 500ms;
 
     img {
         display: block;
@@ -81,6 +84,9 @@ export const HeroText = styled.div`
    -khtml-user-select: none; /* Konqueror HTML */
    -moz-user-select: none; /* Firefox */
    -ms-user-select: none; /* Internet Explorer/Edge */
+
+    transition: all 0.3s ease-in-out;
+    animation: ${animateDownToUp} 500ms;
    
     h2{
         width: 100%;
