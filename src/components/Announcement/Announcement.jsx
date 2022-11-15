@@ -21,7 +21,7 @@ const AnnouncementContainer = styled.div`
 
 const Announcement = () => {
   return (
-    <AnnouncementContainer><p>Designed & Developed by Anshul Kulkarni</p></AnnouncementContainer>
+    <AnnouncementContainer id="home"><p>Designed & Developed by Anshul Kulkarni</p></AnnouncementContainer>
   )
 }
 

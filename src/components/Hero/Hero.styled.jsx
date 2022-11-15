@@ -76,7 +76,12 @@ export const HeroText = styled.div`
     align-items: center;
     flex-direction: column;
     gap: 1em;
-
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+   
     h2{
         width: 100%;
         font-size: 2.2em;
@@ -91,6 +96,7 @@ export const HeroText = styled.div`
         width: 100%;
         font-size: 14px;
         color: #abb2bf;
+        
     }
     span {
         font-weight: 600;

@@ -4,7 +4,7 @@ import cv from "../../Assets/cv.pdf"
 
 const Hero = () => {
   return (
-    <HeroContainer>
+    <HeroContainer >
       <HeroWrapper>
         <HeroImage>
           <img src={heroImg} alt="hero image" />
@@ -15,7 +15,7 @@ const Hero = () => {
           <p>Courteous and enthusiastic, I am interested in IT and everything in it's orbit. I recently began to be fascinated by web programming. i.e <span>React</span> & <span>Node</span></p>
           <HeroActions>
             <ActionBtn href={cv} varient="download">Download CV</ActionBtn>
-            <ActionBtn href="/" varient="contact">Contact Us</ActionBtn>
+            <ActionBtn href="#contact-us" varient="contact">Contact Us</ActionBtn>
           </HeroActions>
         </HeroText>
       </HeroWrapper>

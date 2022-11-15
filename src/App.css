@@ -1,13 +1,73 @@
 .app {
-    /* height: 100vh; */
+    height: fit-content;
     background: linear-gradient(110deg, #000a24, #16002b);
     overflow: hidden;
+    /* overflow-x: hidden; */
 }
 
 .icons {
     color: whitesmoke;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
 .active {
     transform: translateX(0) !important;
+}
+
+.input--field {
+    background-color: hsla(271, 100%, 87%, 0.1);
+    width: 18em;
+    padding: 7px 15px;
+    color: #abb2bf;
+    border-radius: 6px;
+}
+
+input, textarea {
+    color: #abb2bf;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+input::placeholder , textarea::placeholder{ 
+    color: #abb2bf;
+}
+
+textarea {
+    height: 10em;
+}
+
+.submit-btn {
+    margin-top: 1em;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #00abb3;
+    color: whitesmoke;
+    width: fit-content;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover {
+    border: 1px solid transparent;
+    background-color: hsla(219, 14%, 71%, 0.2);
+}
+
+.footer--icons {
+    color: #abb2bf;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer--icons:hover {
+    color: #00abb3;
 }

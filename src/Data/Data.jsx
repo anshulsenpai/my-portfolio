@@ -14,60 +14,58 @@ import figma from "../Assets/lang-logos/Figma.png"
 import photoshop from "../Assets/lang-logos/Photoshop.png"
 import illustrator from "../Assets/lang-logos/Illustrator.png"
 import git from "../Assets/lang-logos/Git.png"
+import ecommerce from "../Assets/ecommerce.png"
+import portfolio from "../Assets/figma-portfolio.png"
+import janhavi from "../Assets/janhavi.jpg"
 
 
 export const languages = [
     {
         name: "javascript",
         image: javascriptImg,
-        level: "expert"
-    },
-    {
-        name: "java",
-        image: java,
-        level: "good"
-    },
-    {
-        name: "python",
-        image: python,
-        level: "good"
-    },
-]
-
-export const frontend = [
-    {
-        name: "html",
-        image: html,
-        level: "expert"
-    },
-    {
-        name: "css",
-        image: css,
-        level: "expert"
-    },
-    {
-        name: "scss",
-        image: scss,
-        level: "good"
+        level: "expert",
+        desc: "I've stared learning javascript along with HTML & CSS and I learnt alot about web development"
     },
     {
         name: "react",
         image: react,
-        level: "expert"
+        level: "expert",
+        desc: "After learning HTML, CSS & JavaScript I get to know about React, And I started learning it it's really amazing"
     },
     {
-        name: "material ui",
-        image: material,
-        level: "expert"
+        name: "redux",
+        image: redux,
+        level: "expert",
+        desc: "Redux is state management library for JavaScript apps, it is really helpfull to me to build complex websites"
     },
     {
-        name: "redux css",
+        name: "node",
+        image: node,
+        level: "expert",
+        desc : "Node is a runtime environment for JavaScript, I use node with express as a backend of my web apps "
+    },
+    {
+        name: "figma",
+        image: figma,
+        level: "expert",
+        desc: "I love to design so I started to learn figma and upskill myself with designing and now I'm really good at that"
+    },
+    {
+        name: "git",
+        image: git,
+        level: "expert",
+        desc : "Git is a version controll system, it is very usefull for development purpose, I can track my code with git"
+    }
+
+]
+
+
+export const frameworks = [
+    {
+        name: "redux",
         image: redux,
         level: "expert"
     },
-]
-
-export const backend = [
     {
         name: "node",
         image: node,
@@ -79,31 +77,41 @@ export const backend = [
         level: "expert"
     },
     {
-        name: "mongo db",
-        image: mongodb,
+        name: "java",
+        image: java,
+        level: "good"
+    },
+    {
+        name: "python",
+        image: python,
         level: "good"
     }
 ]
 
-export const other = [
+export const myProjects = [
     {
-        name: "figma",
-        image: figma,
-        level: "expert"
+        name: "E-commerce Website",
+        image: ecommerce,
+        title : "ecommerce website using MongoDB, Express, React, Node",
+        link: "https://playstation-shop.herokuapp.com/"
     },
     {
-        name: "photoshop",
-        image: photoshop,
-        level: "expert"
+        name: "Portfolio Design",
+        image: portfolio,
+        title : "Portfolio UI design using Figma",
+        link: "https://www.figma.com/file/5FRAJbDD18LPiBE54FnS7n/ArtistFolio?node-id=0%3A1"
+    },
+]
+
+export const reviews = [
+    {
+        name: "Janhavi Xais",
+        image : janhavi,
+        review : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a erat tincidunt, tristique arcu vel, interdum nunc. Morbi ut nisi imperdiet, ullamcorper mauris non, iaculis libero. Sed sem sapien, iaculis."
     },
     {
-        name: "illustrator",
-        image: illustrator,
-        level: "expert"
+        name: "Janhavi Xais",
+        image : janhavi,
+        review : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a erat tincidunt, tristique arcu vel, interdum nunc. Morbi ut nisi imperdiet, ullamcorper mauris non, iaculis libero. Sed sem sapien, iaculis."
     },
-    {
-        name: "git",
-        image: git,
-        level: "expert"
-    }
 ]

@@ -1,15 +1,15 @@
 import styled from 'styled-components'
 
 
-export const NavbarContainer = styled.div`
+export const NavbarContainer = styled.nav`
     width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    top: 1px;
     position: sticky;
+    top: 0;
     z-index: 100;
     background-color: rgb(245, 245, 245, 0.07);
 `
@@ -82,6 +82,9 @@ export const ContactUs = styled.a`
         color: #202020;
         background-color: #7DE5ED;
     }
+    @media screen and (max-width: 768px) {
+        font-size: 11px;
+    }
 `
 
 export const NavMenuBtn = styled.div`
@@ -89,6 +92,10 @@ export const NavMenuBtn = styled.div`
     justify-content: center;
     align-items: center;
     display: none;
+    position: static;
+    border: 1px solid #aab2bf;
+    padding: 4px;
+    border-radius: 4px;
 
     @media screen and (max-width: 768px) {
         display: flex;
