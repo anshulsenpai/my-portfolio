@@ -119,10 +119,12 @@ export const CardImage = styled.img`
         width: 35px;
     }
 `
+
 export const CardTexts = styled.p`
     display: flex;
     flex-direction: column;
 `
+
 export const CardItemName = styled.h3`
     font-size: ${(props) => props.varient === 'name' ? "16px" : "12px"};
     font-weight: ${(props) => props.varient === 'name' ? "500" : "300"};
