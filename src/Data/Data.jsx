@@ -24,7 +24,7 @@ export const languages = [
         name: "javascript",
         image: javascriptImg,
         level: "expert",
-        desc: "I stared learning javascript along with HTML & CSS and I've learnt alot about web development"
+        desc: "I started learning javascript along with HTML & CSS and I've learnt alot about web development"
     },
     {
         name: "react",
@@ -48,15 +48,14 @@ export const languages = [
         name: "figma",
         image: figma,
         level: "expert",
-        desc: "I've always been an enthusiast about designing and I found Figma is the best opption."
+        desc: "I've always been an enthusiast about designing and I found Figma is the best option."
     },
     {
         name: "git",
         image: git,
         level: "expert",
-        desc : "Git is a version control system, it is very usefull for development purpose, I helped me to track my code."
+        desc : "Git is a version control system, it is very useful for development purpose, It helped me to track my code."
     }
-
 ]
 
 

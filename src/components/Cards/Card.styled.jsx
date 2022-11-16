@@ -136,6 +136,7 @@ export const CardItemName = styled.h3`
     }
 `
 export const Desc = styled.p`
+    height: 7.5em;
     font-size: 13px;
     color: #abb2bf;
     @media screen and (max-width: 768px) {
