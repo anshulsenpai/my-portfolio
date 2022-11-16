@@ -71,3 +71,18 @@ textarea {
 .footer--icons:hover {
     color: #00abb3;
 }
+
+.animate{
+    animation: animate 0.5s linear;
+}
+
+ @keyframes animate{
+     0%{
+         transform: translateX(50%);
+         opacity: 0;
+     }
+     100%{
+     transform: translateX(0);
+     opacity: 1;
+     }
+ }

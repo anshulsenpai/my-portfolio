@@ -1,23 +1,26 @@
 import React from 'react'
 // import Card from '../Cards/Card'
 import { CardDiv, SkillsContainer, SkillsShowcase, SkillsTitle, SkillsWrapper } from './Skills.styled'
-import { languages, frameworks } from "../../Data/Data";
+import { languages } from "../../Data/Data";
 import Card2 from '../Cards/Card2';
+import { useInView } from 'react-intersection-observer';
+
 
 
 const Skills = () => {
+  const {ref:myRef,inView:inView}=useInView()
   return (
     <SkillsContainer id='skills'>
       <SkillsWrapper>
         <SkillsTitle>
           <h2>Skills</h2>
-          <label>I've got</label>
+          <label>What I've got</label>
         </SkillsTitle>
         <SkillsShowcase>
 
           {
             languages?.map(item => (
-              <CardDiv key={item.name}>
+              <CardDiv className={inView ? "animate" : null} ref={myRef} key={item.name}>
                 <Card2 image={item.image} name={item.name} level={item.level} desc={item.desc} />
               </CardDiv>
             ))

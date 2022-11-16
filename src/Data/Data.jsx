@@ -24,37 +24,37 @@ export const languages = [
         name: "javascript",
         image: javascriptImg,
         level: "expert",
-        desc: "I've stared learning javascript along with HTML & CSS and I learnt alot about web development"
+        desc: "I stared learning javascript along with HTML & CSS and I've learnt alot about web development"
     },
     {
         name: "react",
         image: react,
         level: "expert",
-        desc: "After learning HTML, CSS & JavaScript I get to know about React, And I started learning it it's really amazing"
+        desc: "I've created an E-commerce website using React, and Implemented CRUD Operations in it!"
     },
     {
         name: "redux",
         image: redux,
         level: "expert",
-        desc: "Redux is state management library for JavaScript apps, it is really helpfull to me to build complex websites"
+        desc: "Redux is state management library for JavaScript apps, it helped me to implement CRUD operations in my project"
     },
     {
         name: "node",
         image: node,
         level: "expert",
-        desc : "Node is a runtime environment for JavaScript, I use node with express as a backend of my web apps "
+        desc : "Node is a runtime environment for JavaScript, I used Node with Express to create REST API for my projects."
     },
     {
         name: "figma",
         image: figma,
         level: "expert",
-        desc: "I love to design so I started to learn figma and upskill myself with designing and now I'm really good at that"
+        desc: "I've always been an enthusiast about designing and I found Figma is the best opption."
     },
     {
         name: "git",
         image: git,
         level: "expert",
-        desc : "Git is a version controll system, it is very usefull for development purpose, I can track my code with git"
+        desc : "Git is a version control system, it is very usefull for development purpose, I helped me to track my code."
     }
 
 ]

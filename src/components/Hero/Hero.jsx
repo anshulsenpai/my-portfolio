@@ -1,6 +1,8 @@
 import { ActionBtn, HeroActions, HeroContainer, HeroImage, HeroText, HeroWrapper } from "./Hero.styled"
-import heroImg from "../../Assets/Images/anshul-bg.png"
+// import heroImg from "../../Assets/Images/anshul-bg.png"
 import cv from "../../Assets/cv.pdf"
+import heroImg from "../../Assets/Images/anshul-me.jpg"
+
 
 const Hero = () => {
   return (

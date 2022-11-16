@@ -13,7 +13,7 @@ const About = () => {
                 <AboutContent>
                     <AboutTexts>
                         <h4>Hello!</h4>
-                        <p>My name is <strong>Anshul Kulkarni</strong> I'm persuing Bacherlor's of Science in Computer Science (CS). I  will graduate in 2023. Apart from that I adapted lot of skills like full stack web development and UI/UX designing. I am focused in my work, love to explore more and more things related to technology. I'm a quick learner and problem solving mindset.</p>
+                        <p>My name is <strong>Anshul Kulkarni</strong> I'm persuing Bacherlor's of Science in Computer Science (CS). I  will graduate in 2023. Apart from that I've adapted lot of skills like full stack web development and UI/UX designing. I am focused towards my work, love to explore more and more things related to technology. I'm a quick learner with problem solving mindset.</p>
                     </AboutTexts>
                     <AboutImage>
                         <img src={aboutImg} alt="my image" />
