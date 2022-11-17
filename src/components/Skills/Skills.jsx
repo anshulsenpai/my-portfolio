@@ -3,12 +3,12 @@ import React from 'react'
 import { CardDiv, SkillsContainer, SkillsShowcase, SkillsTitle, SkillsWrapper } from './Skills.styled'
 import { languages } from "../../Data/Data";
 import Card2 from '../Cards/Card2';
-import { useInView } from 'react-intersection-observer';
+// import { useInView } from 'react-intersection-observer';
 
 
 
 const Skills = () => {
-  const {ref:myRef,inView:inView}=useInView()
+  // const {ref:myRef,inView:inView}=useInView()
   return (
     <SkillsContainer id='skills'>
       <SkillsWrapper>
@@ -20,7 +20,7 @@ const Skills = () => {
 
           {
             languages?.map(item => (
-              <CardDiv className={inView ? "animate" : null} ref={myRef} key={item.name}>
+              <CardDiv key={item.name}>
                 <Card2 image={item.image} name={item.name} level={item.level} desc={item.desc} />
               </CardDiv>
             ))
