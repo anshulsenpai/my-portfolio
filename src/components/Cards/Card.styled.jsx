@@ -77,8 +77,8 @@ import { animateRightToLeft } from "../../App.styled";
 // `
 
 export const CardContainer = styled.div`
-    width: 250px;
-    height: 220px;
+    width: 220px;
+    height: 215px;
     background: rgba(255, 255, 255, 0.08);
     margin: 1em;
     border-radius: 8px;
