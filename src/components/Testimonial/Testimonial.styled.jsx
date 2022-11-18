@@ -9,7 +9,7 @@ export const TestimonialContainer = styled.div`
     background-color: black;
 
     @media screen and (max-width: 768px) {
-        height: 105vh;
+        height: 110vh;
     }
 `
 
@@ -44,20 +44,23 @@ export const ReviewContainer = styled.div`
 
 export const Review = styled.div`
     width: 300px;
-    height: 260px;
+    height: 230px;
     padding: 1em;
     background-color: #111;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 768px) {
         width: 250px;
+        padding: 10px;
     }
 `
 
 export const ClientImage = styled.div`
     width: 100%;
-    height: 100%;
+    height: fit-content;
+    padding: 0 10px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -77,14 +80,13 @@ export const ClientImage = styled.div`
 export const ReviewText = styled.div`
     padding: 10px 0;
     width: 100%;
-    height: 150px;
     p {
         color: #abb2bf;
         font-size: 14px;
     }
     @media screen and (max-width: 425px) {
-    p {
-        font-size: 13px;
-    }
+        p {
+            font-size: 13px;
+        }
     }
 `
