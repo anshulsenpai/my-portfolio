@@ -75,7 +75,7 @@ export const AboutImage = styled.div`
         color: #abb2bf;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1000px) {
 
         img {
             width: 14em;

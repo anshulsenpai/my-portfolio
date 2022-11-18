@@ -58,10 +58,10 @@ export const ProjectBox = styled.div`
         transform: scale(108%);
     }
     @media screen and (max-width: 425px) {
-        transform: scale(97%);
+        transform: scale(80%);
 
         &:hover {
-        transform: scale(99%);
+        transform: scale(80%);
         }
     }
 `

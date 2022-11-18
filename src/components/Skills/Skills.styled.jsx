@@ -71,8 +71,8 @@ export const SkillsShowcase = styled.div`
         grid-template-columns: repeat(2, 175px);
     }
 
-    @media screen and (max-width: 320px){
-        height: 36.5em;
+    @media screen and (max-width: 425px){
+        height: 40em;
         grid-template-columns: repeat(1, 225px);
     }
 

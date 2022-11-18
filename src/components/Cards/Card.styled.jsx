@@ -90,6 +90,11 @@ export const CardContainer = styled.div`
     transition: all 0.3s ease-in-out;
     animation: ${animateRightToLeft} 500ms;
 
+    &:hover {
+        transform: scale(110%);
+        box-shadow: 5px 5px 10px 0 rgb(0, 0, 0, 0.25);
+    }
+
     @media screen and (max-width: 768px) {
         width: 165px;
         height: 170px;
@@ -97,14 +102,9 @@ export const CardContainer = styled.div`
         padding: 10px;
     }
 
-    @media screen and (max-width: 320px){
-        width: 185px;
-        height: 180px;
-    }
-
-    &:hover {
-        transform: scale(110%);
-        box-shadow: 5px 5px 10px 0 rgb(0, 0, 0, 0.25);
+    @media screen and (max-width: 425px){
+        width: 195px;
+        height: 190px;
     }
 `
 

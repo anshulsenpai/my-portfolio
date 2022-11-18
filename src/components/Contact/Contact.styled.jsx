@@ -22,4 +22,10 @@ export const ContactWrapper = styled.div`
         color: whitesmoke;
         margin: 1em;
     }
+
+    @media screen and (max-width: 768px) {
+        h4 {
+            font-size: 1.4em;
+        }
+    }
 `

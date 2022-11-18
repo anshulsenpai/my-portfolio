@@ -65,6 +65,7 @@ export const Copyright = styled.div`
     margin-top: 2em;
 
     p {
+        text-align: center;
         font-size: 11px;
         color: #727272;
     }

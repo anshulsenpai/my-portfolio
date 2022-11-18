@@ -9,7 +9,7 @@ export const TestimonialContainer = styled.div`
     background-color: black;
 
     @media screen and (max-width: 768px) {
-        height: 100vh;
+        height: 105vh;
     }
 `
 
@@ -27,9 +27,8 @@ export const TestimonialWrapper = styled.div`
         color: whitesmoke;
         padding: 1em;
     }
-
-
 `
+
 export const ReviewContainer = styled.div`
     width: 100%;
     height: 100%;
@@ -50,6 +49,10 @@ export const Review = styled.div`
     background-color: #111;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: 425px) {
+        width: 250px;
+    }
 `
 
 export const ClientImage = styled.div`
@@ -78,5 +81,10 @@ export const ReviewText = styled.div`
     p {
         color: #abb2bf;
         font-size: 14px;
+    }
+    @media screen and (max-width: 425px) {
+    p {
+        font-size: 13px;
+    }
     }
 `
