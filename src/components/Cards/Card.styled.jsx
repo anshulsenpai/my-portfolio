@@ -85,7 +85,7 @@ export const CardContainer = styled.div`
     padding: 1em;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     animation: ${animateRightToLeft} 500ms;
@@ -96,15 +96,14 @@ export const CardContainer = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        width: 165px;
-        height: 170px;
+        width: 170px;
+        height: 185px;
         margin: 10px;
         padding: 10px;
     }
 
     @media screen and (max-width: 425px){
-        width: 195px;
-        height: 190px;
+        transform: scale(97%);
     }
 `
 
@@ -136,7 +135,8 @@ export const CardItemName = styled.h3`
     }
 `
 export const Desc = styled.p`
-    height: 7.5em;
+    height: 8em;
+    margin-top: 5px;
     font-size: 13px;
     color: #abb2bf;
     @media screen and (max-width: 768px) {

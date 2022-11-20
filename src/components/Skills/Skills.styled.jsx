@@ -67,14 +67,14 @@ export const SkillsShowcase = styled.div`
     padding: 10px;
 
     @media screen and (max-width: 768px) {
-        height: 36.5em;
+        height: fit-content;
         grid-template-columns: repeat(2, 175px);
     }
 
-    @media screen and (max-width: 425px){
+    /* @media screen and (max-width: 425px){
         height: 40em;
         grid-template-columns: repeat(1, 225px);
-    }
+    } */
 
     &::-webkit-scrollbar{
         display: none;
