@@ -104,6 +104,11 @@ export const CardContainer = styled.div`
 
     @media screen and (max-width: 425px){
         transform: scale(97%);
+        &:hover {
+            transform: scale(97%);
+            box-shadow: 5px 5px 10px 0 rgb(0, 0, 0, 0.25);
+        }
+
     }
 `
 
@@ -134,6 +139,7 @@ export const CardItemName = styled.h3`
         font-size: ${(props) => props.varient === 'name' ? "13px" : "11px"};
     }
 `
+
 export const Desc = styled.p`
     height: 8em;
     margin-top: 5px;
